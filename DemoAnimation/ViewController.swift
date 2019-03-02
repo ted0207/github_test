@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         demoView = UIView()
-        demoView.backgroundColor = UIColor.red
-        
+//        demoView.backgroundColor = UIColor.red
+        demoView.backgroundColor = UIColor.lightGray
         view.addSubview(demoView)
 //        demoView.translatesAutoresizingMaskIntoConstraints = false
 //        demoView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
